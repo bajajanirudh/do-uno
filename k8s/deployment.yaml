@@ -6,7 +6,6 @@ metadata:
     app: task-api
     version: v1
 spec:
-  replicas: 3
   selector:
     matchLabels:
       app: task-api
@@ -78,4 +77,3 @@ spec:
       volumes:
         - name: tmp
           emptyDir: {}
-      restartPolicy: Always

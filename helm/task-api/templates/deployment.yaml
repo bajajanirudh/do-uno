@@ -66,4 +66,3 @@ spec:
       volumes:
         - name: tmp
           emptyDir: {}
-      restartPolicy: Always

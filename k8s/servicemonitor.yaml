@@ -15,5 +15,4 @@ spec:
       interval: 30s
       scrapeTimeout: 10s
   namespaceSelector:
-    matchNames:
-      - default
+    any: true
